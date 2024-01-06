@@ -1,8 +1,11 @@
+* {
+    margin: 0;
+}
+
 .box {
     /*box model practice*/
     font-size: 2rem;
     background-color: pink;
-
     height: 120px;
     width: 100px;
     /*padding-top: 32px;
