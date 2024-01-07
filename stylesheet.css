@@ -6,16 +6,14 @@
     /*box model practice*/
     font-size: 2rem;
     background-color: pink;
-    height: 120px;
-    width: 100px;
-    /*padding-top: 32px;
+    height: 200px;
+    width: 400px;
+    padding-top: 32px;
     padding-left: 32px;
     padding-right:32px;
-    padding-bottom: 64px;*/
-    margin-top: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    border: solid 2px red;
+    padding-bottom: 64px;
+    margin:0px;
+    border: solid 5px red;
     padding: 32px 32px 64px 32px; /*understanding the box model with the priciple of clockwise direction*/
-   }
+    box-sizing: border-box; /*border-box element is specifically used to specify generally the 'width and height' size rather than just the content*/
+}
